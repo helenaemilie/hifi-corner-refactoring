@@ -12,7 +12,7 @@ function scss(){
 }
 function buildSCSS(){
     return gulp
-            .src("./src/css/**/*.css")
+            .src("./src/scss/style.scss")
             .pipe(sass())
             .pipe(gulp.dest("./dist/css"))
 }
