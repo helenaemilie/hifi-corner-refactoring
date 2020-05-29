@@ -16,7 +16,6 @@
     "escape-html": "^1.0.3",
     "etag": "^1.8.1",
     "fresh": "^0.5.2",
-    "fsevents": "^1.2.13",
     "http-parser-js": "^0.4.10",
     "livereload-js": "^2.4.0",
     "mime-db": "^1.44.0",
