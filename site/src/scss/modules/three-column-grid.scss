@@ -1,0 +1,37 @@
+.three-column-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: black;
+
+  .three-column-grid__item{
+    background-size: cover;
+    padding: 20%;
+    text-align: center;
+    transition: 0.5s;
+    &:hover{
+      opacity: 80%;
+    }
+  }
+  .three-column-grid__item_1 {
+    background-image: url("../img/socials/hf_speaker_facebook.jpg");
+  }
+  .three-column-grid__item_2 {
+    background-image: url("../img/socials/sennheiser_blogger.jpg");
+  }
+  .three-column-grid__item_3 {
+    background-image: url("../img/socials/record_player_twitter.jpg");
+    background-position: center;
+  }
+  .three-column-grid__links{
+    text-decoration: none;
+    color:$white;
+    cursor: pointer;
+    
+    .three-column-grid__icons {
+      font-size: 15em;
+      color: $white;
+    }
+  }
+}
+
+

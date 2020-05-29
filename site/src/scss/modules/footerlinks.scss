@@ -1,0 +1,34 @@
+.three-column-grid_small {
+  padding: 0em 15em;
+  background-color: #111111;
+  border-top: 1px solid $grey;
+
+  .footer-links__item {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+    .footer-links__title {
+      margin: 2.5em auto 0.5em;
+      font-size: 2.5em;
+      font-weight: 600;
+
+      .footer-links__links {
+        border: 1px solid $white;
+        text-decoration: none;
+        color: $beige;
+        padding: 0.1em 1em;
+
+        &:hover {
+          color: $grey;
+          transition: 0.3s;
+        }
+      }
+    }
+    .footer-links__text {
+      color: $white;
+      margin: 0.2em 2em 6em 2em;
+      font-size: $font-medium;
+    }
+  }
+}

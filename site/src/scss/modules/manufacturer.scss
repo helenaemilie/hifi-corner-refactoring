@@ -1,0 +1,36 @@
+/**************************************************
+sidebar right 'manufactures'
+**************************************************/
+.shop-page__manufacturer {
+  color: $beige;
+  grid-column: 3 / 4;
+  margin: 3em 1em;
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+
+  .shop-page__manufacturer_title {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .shop-page__manufacturer_name {
+    color: black;
+    text-transform: uppercase;
+    margin-left: 1em;
+    cursor:pointer;
+    display:inline;
+    &:hover{
+      text-decoration: underline;
+    }
+    .shop-page__manufacturer_name_not-shown {
+      display:none;
+    }
+    .shop-page_manufacturer_view {
+      color: $beige;
+      font-size: 1.2em;
+      font-weight: bold;
+      cursor:pointer;
+    }
+  }
+}

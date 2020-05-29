@@ -1,0 +1,159 @@
+<%- include("../partials/before-header.ejs") %>
+<%- include("../partials/header.ejs") %>
+
+   
+    <main class="main_shop">
+      <section class="shop-page">
+        <div class="shop-page__sidebar">
+          <div class="sidebars">
+            <ul class="sidebar__list">
+              <li class="sidebar-list__item list-item__upper">Amplifiers</li>
+              <li class="sidebar-list__item list-item__upper">Speakers</li>
+              <li class="sidebar-list__item list-item__upper">Turntables</li>
+              <li class="sidebar-list__item list-item__upper">Disc Players</li>
+              <li class="sidebar-list__item list-item__upper">Streamers</li>
+              <li class="sidebar-list__item list-item__upper">Cables</li>
+              <li class="sidebar-list__item list-item__upper">Furniture</li>
+              <li class="sidebar-list__item list-item__upper">Headphones</li>
+              <li class="sidebar-list__item list-item__upper">Home Cinema</li>
+              <li class="sidebar-list__item list-item__upper">Ceiling Speakers</li>
+              <li class="sidebar-list__item list-item__upper">TV</li>
+              <li class="sidebar-list__item list-item__upper">Vinyl</li>
+              <li class="sidebar-list__item list-item__upper">Outlet - SAVE MONEY YO</li>
+            </ul>
+
+          </div>
+          <div class="sidebars">
+              <h3 class="sidebar__title">SHOP BY</h3>
+                <p class="sidebar__undertitle">Filter</p>
+                <p class="sidebar__undertitle">PRICE</p>
+                <ul class="sidebar__list">
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">0</span> - £<span class="max-price">799</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">800</span> - £<span class="max-price">999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">1000</span> - £<span class="max-price">1499</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">1500</span> - £<span class="max-price">1999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">2000</span> - £<span class="max-price">2999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">2000</span> - £<span class="max-price">3499</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">3500</span> - £<span class="max-price">4999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">5000</span> - £<span class="max-price">7999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">8000</span> - £<span class="max-price">11999</span></li>
+                </ul>
+              <ul class="sidebar__list">
+                <p class="sidebar__undertitle">MANUFACTURER</p>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Arcam</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Astell and Kern</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">ATC</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Audiolab</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">AVID</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Chord Electronics</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Classé</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Denon</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Devialet</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">EAT</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Graham Slee</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Linn</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Marantz</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Meridian</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Naim</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">PrimaLuna</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Primare</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Quad</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Rotel</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Sennheiser</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Sugden</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Technic</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Trinnov</li>
+                  <li class="sidebar-list__item sidebar-list__manufacturer">Yamaha</li>
+                </ul>
+          </div>
+        </div>
+        <div class=" shop-page_products-container">
+          <h2 class="shop-page_product_title">All products</h2>
+
+          <div class="shop-page__sortby">
+            <div class="shop-page__sortby_left">
+              <label class="shop-page__sortby_text" for="sortby"
+                >Sort by:</label
+              >
+              <select class="shop-page__sortby_select">
+                <option value="" hidden></option>
+                <option value="price">Price</option>
+                <option value="name">Name</option>
+              </select>
+              <i class="fas shop-page__sortby_arrow fa-arrow-down"></i>
+              <p class="shop-page__sortby_view">View as</p>
+              <i class="fas shop-page__sortby_squares fa-border-all"></i>
+              <i class="fas shop-page__sortby_list fa-align-justify"></i>
+            </div>
+            <div class="shop-page__sortby_right">
+              <p class="shop-page__total"></p>
+              <label class="shop-page__sortby_text" for="show">Show:</label>
+              <select class="shop-page__sortby_show">
+                <option value="300">300</option>
+                <option value="500">500</option>
+              </select>
+            </div>
+          </div>
+        
+          <div class="shop-page__product_cards_view">
+              <div class="shop-page_view_as">
+                <div class="shop-page__view_as_img">
+                  <img class="view-as__img" src="img/shop/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg" alt="Creek OBH 22 Passive Preamp">
+                </div>
+                <div class="shop-page__view_as_title">
+                  Creek OBH 22 Passive Preamp
+                </div>
+                <div class="shop-page__view_as_price">
+                  £400
+                </div>
+                <div class="shop-page__view_as_button">
+                  <button class="shop-page__cart_button">Add to cart</button>
+                </div>
+              </div>
+
+              <div class="shop-page_view_as">
+                <div class="shop-page__view_as_img">
+                  <img class="view-as__img" src="img/shop/forforstaerkere/parasound_classic7100.jpg" alt="Parasound Classic 7100">
+                </div>
+                <div class="shop-page__view_as_title">
+                  Parasound Classic 7100
+                </div>
+                <div class="shop-page__view_as_price">
+                  <p class="shop-page__view_as_price_left">£650</p>
+                  <p class="shop-page__view_as_price_right"></p>
+                </div>
+                <div class="shop-page__view_as_button">
+                  <button class="shop-page__cart_button">Add to cart</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+          <div class="shop-page__manufacturer">
+            <p class="shop-page__manufacturer_title">Manufacturer</p>
+            <p class="shop-page__manufacturer_name">arcam</p>
+            <p class="shop-page__manufacturer_name">astell and Kern</p>
+            <p class="shop-page__manufacturer_name">atc</p>
+            <p class="shop-page__manufacturer_name">audiolab</p>
+            <p class="shop-page__manufacturer_name">avid</p>
+            <p class="shop-page__manufacturer_name">boesendorfer</p>
+            <p class="shop-page__manufacturer_name">chord Electronics</p>
+            <p class="shop-page__manufacturer_name">classé</p>
+            <p class="shop-page__manufacturer_name shop-page__manufacturer_name_not-shown">creek</p>
+            <p class="shop-page__manufacturer_name shop-page__manufacturer_name_not-shown">epos</p>
+            <p class="shop-page__manufacturer_name shop-page__manufacturer_name_not-shown">exposure</p>
+            <p class="shop-page__manufacturer_name shop-page__manufacturer_name_not-shown">harbeth</p>
+            <p class="shop-page__manufacturer_name shop-page__manufacturer_name_not-shown">jolida</p>
+            <p class="shop-page__manufacturer_name shop-page__manufacturer_name_not-shown">manley</p>
+            <p class="shop-page__manufacturer_name shop-page__manufacturer_name_not-shown">parasound</p>
+            <p class="shop-page__manufacturer_name shop-page__manufacturer_name_not-shown">pro-ject</p>            
+            <p class="shop-page_manufacturer_view">View all</p>
+          </div>
+        </section>
+      </main>
+
+      <script src="../js/manufacturer.js"></script>
+      <script src="../js/product_cards.js"></script>
+
+<%- include("../partials/footer.ejs") %>
+<%- include("../partials/after-footer.ejs") %>

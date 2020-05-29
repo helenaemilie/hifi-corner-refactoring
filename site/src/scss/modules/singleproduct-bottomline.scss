@@ -1,0 +1,23 @@
+/***********************************
+product page - bottom line
+***********************************/
+.singleproduct-page__buttomline{
+    display: flex;
+    margin: 1em 2em 0;
+    background-color: black;
+    font-size: $font-medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    justify-content: center;
+
+    .fa-phone-alt{
+        font-size: 0.9em;
+        margin: 0.2em;
+        color: $white;
+    }
+
+    .singleproduct-page__buttomline_link{
+        text-decoration: none;
+        color: $beige;
+        }
+}

@@ -1,0 +1,49 @@
+.shop-page_view_as{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2.1rem;
+    padding: 1rem;
+    border: 1px solid $beige;
+    height: 100px;
+    grid-column: span 4;
+    place-items: center;
+
+    .view-as__img{
+        object-fit: cover;
+        height: 80px;
+    }
+    .shop-page__view_as_title{
+        padding: 2rem;
+        font-size: $font-medium;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .shop-page__view_as_price{
+        color: $beige;
+        font-size: $font-medium;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+      
+        .shop-page__view_as_price_left{
+            font-weight: normal;
+            text-decoration: line-through;
+            margin-right: 1rem;
+        }
+    }
+    .shop-page__cart_button {
+        background-color: $beige;
+        color: $white;
+        padding: 0.5em;
+        text-transform: uppercase;
+        font-size: $font-medium;
+        padding: 0.3em 1em;
+        align-self: center;
+        transition: 0.3s;
+        cursor:pointer;
+        &:hover {
+            background-color: #272727;
+        }
+    }
+}
+

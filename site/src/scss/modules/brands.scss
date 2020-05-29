@@ -1,0 +1,57 @@
+.hero__brands{
+    display:flex;
+    justify-content: space-between;
+
+    .brands__title{
+        color:$white;
+        margin:4em 200px;
+        font-size: 2.5em;
+        font-weight: 100;
+    }
+    .brands__logo{
+        width:auto;
+        margin: 4em 200px;
+    }
+}
+.brands-section{
+    margin: 0 150px 5em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid 2em $white;
+
+    .brands-section__stockbox{
+        background: linear-gradient(to right, black, #3a3732);
+
+        .brands-section__title{
+            color:#a39161;
+            font-size:$font-medium;
+            padding:2em;
+        }
+        .brands-section__image{
+            width:auto;
+            padding:2em;
+        }
+    }
+    .brands-section__textbox{
+        color:$white;
+        background: linear-gradient(to right, rgb(31, 29, 29), #3a3732);
+        padding:2em;
+
+        .textbox__title{
+            color:$beige;
+            font-size:3em;
+            font-weight: 100;
+            padding-bottom: 20px;
+        }
+        .textbox__text{
+            color:$white;
+            line-height: 1.4;
+            font-size: $font-medium;
+            padding-bottom: 1.5em;
+        }
+        .textbox__undertitle{
+            color:$beige;
+            font-size: $font-medium;
+        }
+    }
+}

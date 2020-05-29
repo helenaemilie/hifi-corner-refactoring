@@ -1,0 +1,24 @@
+.quote{
+    background: url(../img/bg_home_quote.jpg);
+    background-size: cover;
+    text-align: center;
+    color:$white;
+    height:400px;
+    background-repeat: no-repeat;
+    padding-top:12em;
+    border-top:1px solid #655a3f;
+
+    .quote__title{
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 2.5rem 0;
+        font-size: 41px;
+    }
+    .quote__undertitle{
+        text-transform: uppercase;
+        font-weight: 100;
+        margin: 2.5rem 0;
+        font-size: 25px;
+    }
+}
+

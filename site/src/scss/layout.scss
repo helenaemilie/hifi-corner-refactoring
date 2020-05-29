@@ -1,0 +1,20 @@
+.main__brand {
+    display: flex;
+    justify-content: center;
+}
+
+.page-wrapper{
+    font-family: 'Nunito', sans-serif;
+    background-image: url(../img/hero_background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+.main_shop{
+    max-width: 1500px;
+    width:100%;
+    margin:0 auto;
+}

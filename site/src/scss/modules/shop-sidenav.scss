@@ -1,0 +1,36 @@
+
+  .sidebars{
+    background-color:$white;
+    margin:3em;
+    padding:2em;
+
+    .sidebar__title{
+      color:$beige;
+    }
+    .sidebar__undertitle{
+      color:black;
+      font-weight: bold;
+      margin:2em 0 1em;
+    }
+    .sidebar__list{
+      list-style: none;
+      line-height: 2;
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .sidebar-list__item{
+        color:$beige;
+        cursor:pointer;
+        display:inline-block;
+        font-size: 1.2em;
+        &:hover{
+          color:black;
+          text-decoration: underline;
+        }
+      }
+      .list-item__upper{
+        font-weight: bold;
+      }
+    }
+  }

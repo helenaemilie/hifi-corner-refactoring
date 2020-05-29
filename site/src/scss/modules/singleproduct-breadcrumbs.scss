@@ -1,0 +1,17 @@
+/***********************************
+breadcrumbs
+***********************************/
+.breadcrumbs_singleproduct{
+    display: flex;
+    margin: 0 2em 1.5em 2em;
+
+        .breadcrumbs-singleproduct__links{
+            text-decoration: none;
+            color:$beige;
+            cursor:pointer;
+        }
+
+        .breadcrumbs-singleproduct__slash{
+            margin: 0 0.8em;
+            }
+}

@@ -1,0 +1,26 @@
+.user-menu{
+    display:flex;
+    align-items: center;
+    margin-right: 4em;
+
+    .user-menu__item{
+        display: flex;
+        align-items: center;
+        margin-right: 2.5em;
+        cursor:pointer;
+
+        .user-menu__icon{
+            color:$white;
+            font-size: 2.2em;
+            margin:0 .3em;
+        }
+        .user-menu__item-title{
+            color:$white;
+            text-transform: uppercase;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+    }
+}
+
+

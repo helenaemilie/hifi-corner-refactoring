@@ -1,0 +1,27 @@
+.contact{
+    display:flex;
+    justify-content:flex-end;
+    padding: 3em 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .fa__phone{
+        color:transparent;
+        -webkit-text-stroke: 1px $white;
+        margin:0 0.5em;
+    }
+    .fa__location{
+        color:transparent;
+        -webkit-text-stroke: 1px $white;
+        margin:0 0.5em;
+    }
+    .fa__mail{
+        color:transparent;
+        -webkit-text-stroke: 1px $white;
+        margin:0 0.5em;
+    }
+    .fa__envelope{
+        margin-right:5px;
+        align-self: center;
+        padding-top:3px;
+    }
+}

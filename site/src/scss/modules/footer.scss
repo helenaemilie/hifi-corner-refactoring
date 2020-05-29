@@ -1,0 +1,45 @@
+.footer-bar {
+  display: flex;
+  background-color: $beige;
+  font-family: "Nunito", sans-serif;
+  justify-content: space-between;
+  margin-top: auto;
+
+  .footer-bar__left {
+    display: flex;
+
+    .footer-bar__address {
+      margin-left: 5em;
+      align-self: center;
+      white-space: nowrap;
+      font-weight: bold;
+    }
+    .footer-bar__returns {
+      color: $white;
+      align-self: center;
+      text-decoration: underline;
+      white-space: nowrap;
+      margin-left: 3em;
+      font-size: 1.3em;
+    }
+  }
+  .footer-bar__right {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+
+    .footer-bar__payment {
+      width: 30%;
+    }
+    .footer-bar__socials {
+      color: $white;
+      align-self: center;
+      margin-right: 2em;
+      font-size: $font-medium;
+    }
+  }
+  .footer-bar__links {
+    text-decoration: none;
+    color: $white;
+  }
+}

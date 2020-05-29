@@ -1,0 +1,9 @@
+.hero{
+    display:grid;
+
+    .hero__logo{
+        place-self: center;
+        width:auto;
+        margin:16em 0;
+    }
+}

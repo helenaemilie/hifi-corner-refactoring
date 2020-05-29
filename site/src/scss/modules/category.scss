@@ -1,0 +1,79 @@
+.category__container {
+    background: $white;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(50px, 200px));
+    grid-auto-rows: 200px;
+
+    .category__box {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        .category__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .category__Links {
+            grid-column: 1;
+            position: absolute;
+            z-index: 10;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            font-size: $font-medium;
+            font-weight: bold;
+            width: 150px;
+            color: $white;
+            text-align: center;
+            text-transform: uppercase;
+            &:visited{
+                color:$white;
+            }
+        }
+        .category__Links_button {
+            text-decoration: none;
+            position: absolute;
+            z-index: 10;
+            top: 37%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            font-size: $font-medium;
+            font-weight: bold;
+            width: 100px;
+            text-align: center;
+            background: #685225;
+            height: 30px;
+            border: none;
+        }
+        .category__Links_higher {
+            position: absolute;
+            z-index: 10;
+            left: 20%;
+            top: 45%;
+            font-size: $font-medium;
+            font-weight: bold;
+            text-align: center;
+            color:$white;
+            &:visited{
+                color:$white;
+            }
+        }
+        .category__link_nodec {
+            color: $white;
+            text-decoration: none;
+        }
+        &::before{
+            content:"";
+            width:100%;
+            height:100%;
+            opacity:.8;
+            position:absolute;
+            top:0;
+            left:0;
+            bottom:0;
+            right:0;
+            background-color: #834f13;
+        }
+    }
+}

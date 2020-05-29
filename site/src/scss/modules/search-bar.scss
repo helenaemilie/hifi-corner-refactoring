@@ -1,0 +1,27 @@
+.search-bar{
+    align-self: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: $white;
+    padding:8px 8px;
+    display:flex;
+    width: 500px;
+    border:2px solid rgba(0, 0, 0, 0);
+    transition:border .3s;
+    margin-right: 7em;
+    &:focus-within{
+        border-color: rgb(72, 142, 233);
+    }
+
+    .search-bar__input{
+        font-family: 'Nunito', sans-serif;
+        border:none;
+        font-size: 1.5em;
+        width:100%;
+        outline:none;
+    }
+    .search-bar__icon{
+        color: $grey;
+        font-size: 2em;
+        cursor:pointer;
+    }
+}

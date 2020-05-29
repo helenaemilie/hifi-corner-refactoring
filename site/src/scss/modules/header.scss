@@ -1,0 +1,28 @@
+.header{
+    background-color:black;
+
+    .navigation__list{
+        display:flex;
+        list-style-type:none;
+        justify-content: center;
+        padding:3em 0;
+        border-top:solid 1px #655a3f;
+
+        .navigation__item{
+            margin:0 2em;
+            font-size: 1.1em;
+
+            .navigation__link{
+                text-decoration: none;
+                color:$white;
+                font-weight: bold;
+                &:hover{
+                    color: $grey;
+                }
+            }
+        }
+    }
+}
+
+
+

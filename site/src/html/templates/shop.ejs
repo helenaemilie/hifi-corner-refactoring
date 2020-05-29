@@ -1,0 +1,84 @@
+<%- include("../partials/before-header.ejs") %>
+<%- include("../partials/header.ejs") %>
+
+   
+    <main class="main_shop">
+      <section class="shop-page">
+        <div class="shop-page__sidebar">
+          <div class="sidebars">
+            <ul class="sidebar__list sidebar__list_categories">
+              <li class="sidebar-list__item list-item__upper">Amplifiers</li>
+              <li class="sidebar-list__item list-item__upper">Tube Amplifiers</li>
+              <li class="sidebar-list__item list-item__upper">Power Amplifiers</li>
+              <li class="sidebar-list__item list-item__upper">Preamps</li>
+              <li class="sidebar-list__item list-item__upper">Speakers</li>
+              <li class="sidebar-list__item list-item__upper">LP Players</li>
+              <li class="sidebar-list__item list-item__upper">DVD Players</li>
+              <li class="sidebar-list__item list-item__upper">CD Players</li>
+            </ul>
+
+          </div>
+          <div class="sidebars">
+              <h3 class="sidebar__title">SHOP BY</h3>
+                <p class="sidebar__undertitle">Filter</p>
+                <p class="sidebar__undertitle">PRICE</p>
+                <ul class="sidebar__list">
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">0</span> - £<span class="max-price">799</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">800</span> - £<span class="max-price">999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">1000</span> - £<span class="max-price">1499</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">1500</span> - £<span class="max-price">1999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">2000</span> - £<span class="max-price">2999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">2000</span> - £<span class="max-price">3499</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">3500</span> - £<span class="max-price">4999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">5000</span> - £<span class="max-price">7999</span></li>
+                  <li class="sidebar-list__item sidebar-list__item_price">£<span class="min-price">8000</span> - £<span class="max-price">11999</span></li>
+                </ul>
+              <ul class="sidebar__list sidebar__list_manufacturer">
+                <p class="sidebar__undertitle">MANUFACTURER</p>  
+              </ul>
+          </div>
+        </div>
+        <div class=" shop-page_products-container">
+          <h2 class="shop-page_product_title">All products</h2>
+
+          <div class="shop-page__sortby">
+            <div class="shop-page__sortby_left">
+              <label class="shop-page__sortby_text" for="sortby"
+                >Sort by:</label
+              >
+              <select class="shop-page__sortby_select">
+                <option value="" hidden></option>
+                <option value="price">Price</option>
+                <option value="name">Name</option>
+              </select>
+              <i class="fas shop-page__sortby_arrow fa-arrow-down"></i>
+              <p class="shop-page__sortby_view">View as</p>
+              <i class="fas shop-page__sortby_squares fa-border-all"></i>
+              <i class="fas shop-page__sortby_list fa-align-justify"></i>
+            </div>
+            <div class="shop-page__sortby_right">
+              <p class="shop-page__total"></p>
+              <label class="shop-page__sortby_text" for="show">Show:</label>
+              <select class="shop-page__sortby_show">
+                <option value="300">300</option>
+                <option value="500">500</option>
+              </select>
+            </div>
+          </div>
+        
+          <div class="shop-page__product_cards">
+
+          </div>
+        </div>
+        
+          <div class="shop-page__manufacturer">
+            <p class="shop-page__manufacturer_title">Manufacturer</p>
+          </div>
+        </section>
+      </main>
+
+      <script src="../js/manufacturer.js"></script>
+      <script src="../js/product_cards.js"></script>
+         
+<%- include("../partials/footer.ejs") %>
+<%- include("../partials/after-footer.ejs") %>

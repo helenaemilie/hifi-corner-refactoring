@@ -1,0 +1,51 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "accepts": "^1.3.7",
+    "ansi-regex": "^2.1.1",
+    "ansi-wrap": "^0.1.0",
+    "batch": "^0.6.1",
+    "bytes": "^1.0.0",
+    "continuable-cache": "^0.3.1",
+    "depd": "^1.1.2",
+    "destroy": "^1.0.4",
+    "ee-first": "^1.1.1",
+    "encodeurl": "^1.0.2",
+    "escape-html": "^1.0.3",
+    "etag": "^1.8.1",
+    "fresh": "^0.5.2",
+    "fsevents": "^1.2.13",
+    "http-parser-js": "^0.4.10",
+    "livereload-js": "^2.4.0",
+    "mime-db": "^1.44.0",
+    "mime-types": "^2.1.27",
+    "mime": "^1.4.1",
+    "negotiator": "^0.6.2",
+    "object-assign": "^4.1.1",
+    "on-finished": "^2.3.0",
+    "parseurl": "^1.3.3",
+    "qs": "^6.9.4",
+    "raw-body": "^1.1.7",
+    "range-parser": "^1.2.1",
+    "safe-json-parse": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "dev": "gulp dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
